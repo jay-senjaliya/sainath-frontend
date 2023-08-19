@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap");
+
+/* -----------------------Tour Detail Page CSS----------------- */
+
+.tour-detail-page-carousel .tour-detail-content {
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  left: 0;
+  top: 2;
+  /* z-index: 2; */
+}
+
+.tour-detail-header h1 {
+  /* font-family: "Bebas Neue", cursive; */
+  font-family: "Shantell Sans", cursive;
+}
+
+@media (max-width: 770px) {
+  .tour-detail-header h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 530px) {
+  .tour-detail-header h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .tour-detail-header h1 {
+    font-size: 35px;
+  }
+}
+
+.tour-detail-header p {
+  color: black;
+}
+
+.tour-detail-page-carousel #carousel1 {
+  z-index: -1;
+}
+
+.tour-detail-header div ul li {
+  /* padding: 10px 10px 40px 40px; */
+  margin: auto;
+  padding: 5px 0px;
+  list-style: none;
+  color: black;
+}
+
+.tour-detail-header div ul li .list-item {
+  color: white;
+  letter-spacing: 0.8px;
+  width: 120px;
+  padding: 10px;
+  /* background-color: aqua; */
+  border-radius: 15px;
+}
+
+.tour-detail-header div {
+  /* border: solid rgba(0, 0, 0, 0.368); */
+  border-radius: 5px;
+}
+
+/* #carousel1 .carousel-inner .carousel-item */
+img {
+  /* border: 1px solid black; */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: blue; */
+}
+
+#hotel table,
+th,
+tr,
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+#hotel table {
+  width: 100%;
+  overflow: hidden;
+}
+
+#otherinfo li {
+  list-style: disc;
+}
+
+#itinerary .accordion {
+  color: black;
+}
+
+@media (min-width: 448px) and (max-width: 768px) {
+  .main {
+    margin-top: 115px !important;
+  }
+}

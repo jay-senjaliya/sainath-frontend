@@ -1,0 +1,54 @@
+.cab {
+  margin-top: 98px;
+}
+
+.cab-carousel img {
+  height: 80vh;
+}
+
+.cab-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 0;
+  margin: 10px;
+}
+
+.image-section {
+  /* flex: 1; */
+  /* padding: 10px; */
+}
+
+.image-section img {
+  width: 400px;
+  height: 300px;
+  display: block;
+}
+
+.info-section {
+  flex: 2;
+  padding: 10px;
+}
+
+.info-section h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.info-section p {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttons .cab-button {
+  margin-left: 10px;
+}

@@ -1,0 +1,31 @@
+/********** Template CSS **********/
+:root {
+  --primary: #1e60aa;
+  --secondary: #ff4917;
+  --light: #edf1fc;
+  --dark: #17224d;
+}
+
+#carousel .carousel-inner .carousel-item img {
+  z-index: -1;
+  width: 100vw;
+  height: 87.3vh;
+  opacity: 0.6;
+}
+.carousel-content h1 {
+  font-size: 3.5rem;
+}
+.carousel-content {
+  z-index: 1;
+  position: absolute;
+  top: 48.5vh;
+  left: 20.5vw;
+  color: rgb(13, 13, 13);
+  vertical-align: middle;
+  text-align: left;
+}
+
+.carousel-content p {
+  color: rgb(12, 12, 12);
+  margin-bottom: 10px;
+}
